@@ -1,0 +1,24 @@
+{
+  "name": "e2x_cypress_qa",
+  "version": "1.0.0",
+  "description": "Cypress QA Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prashanthmani90/e2x_cypress_qa.git"
+  },
+  "keywords": [
+    "testing",
+    "cypress"
+  ],
+  "author": "Prashanth Mani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prashanthmani90/e2x_cypress_qa/issues"
+  },
+  "homepage": "https://github.com/prashanthmani90/e2x_cypress_qa#readme"
+}
