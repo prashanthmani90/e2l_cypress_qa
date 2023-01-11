@@ -1,2 +1,2 @@
-# e2l_cypress_qa
+# e2x_cypress_qa
 Cypress Automation
