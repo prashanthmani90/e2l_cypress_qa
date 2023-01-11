@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run --spec \"**/*.feature\"",
-    "test:all": "cypress run --spec \"**/*.features\""
+    "test:all": "cypress run --spec \"**/*.features\"",
+    "cypress:open": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -13,12 +14,20 @@
   },
   "keywords": [
     "testing",
-    "cypress"
+    "cypress",
+    "cucumber"
   ],
   "author": "Prashanth Mani",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/prashanthmani90/e2x_cypress_qa/issues"
   },
-  "homepage": "https://github.com/prashanthmani90/e2x_cypress_qa#readme"
+  "homepage": "https://github.com/prashanthmani90/e2x_cypress_qa#readme",
+  "dependencies": {
+    "cypress": "^4.9.0",
+    "cypress-cucumber-preprocessor": "^2.5.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
 }
